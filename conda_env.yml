@@ -1,0 +1,13 @@
+name: geodemo2021
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - shapely
+  - geopandas
+  - xarray
+  - rasterio
+  - jupyter
+  - pip:
+    - owslib
