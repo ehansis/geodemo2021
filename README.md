@@ -22,13 +22,6 @@ _Scripted, testable, scalable, and free! - A tour of geospatial analysis in Pyth
 * groupy.first to keep one entry per group label
 
 
-## Voronoi zonal stats
-
-https://github.com/WZBSocialScienceCenter/geovoronoi
-
-https://regionmask.readthedocs.io/en/stable/
-
-
 ## OpenStreetMap data queries
 
 School data and Munich city boundaries were queried from OpenStreetMap via [Overpass Turbo](http://overpass-turbo.eu)
