@@ -18,11 +18,29 @@ date: July 15, 2021
 
 ---
 
+# Scaling
+
+* [xarray + dask](http://xarray.pydata.org/en/stable/user-guide/dask.html)
+  - parallel computing (one or multiple datasets!)
+  - execution pipelines  
+  - larger-than-memory datasets  
+  - supports compute clusters
+* [geopandas + dask](https://github.com/geopandas/dask-geopandas)
+  - same benefits...
+  - experimental!
+  
+---
+
+* *you* + dask
+  - anything is possible!
+
+---
+
 # Best practices
 
 ---
 
-# 🪤🐁
+# 🧨🪤🐁
 
 ---
 
@@ -30,7 +48,17 @@ date: July 15, 2021
 
 * No manual editing of input data
 * No interactive data analysis  
-* Fully scripted processing, re-process at the push of a button
+* Fully scripted processing 
+* Re-process at the push of a button
+
+---
+
+## Why?
+
+* You *will* run the analysis more than once.
+* You *will* run similar analyses in the future.
+* You *will not* remember what you did, a year from now.
+* You *will not* write good documentation.
 
 ---
   
@@ -38,22 +66,6 @@ date: July 15, 2021
 
 - [Human Rights Data Analysis Group (HRDAG)](https://hrdag.org/2016/06/14/the-task-is-a-quantum-of-workflow/)
 - [Richard McElreath, MPI EVA](https://www.youtube.com/watch?v=zwRdO9_GGhY)
-
-# Test
-
----
-
-## Three levels of testing
-
-* `assert` statements
-* unit tests
-* consistency checks
-
-[read more](https://github.com/ehansis/til/blob/master/pages/three_levels_analytics_testing.md)
-
----
-
-# Demo time!
 
 ---
 
@@ -72,7 +84,23 @@ Git is a version control system.
 * merging
 * true collaborative work
 
-(... this rules out P💥werBI, T🦄bleau, Ql🚀k, etc.)
+... this rules out P💥werBI, T🦄bleau, ArcG📍s projects
+
+# Test, Test, Test
+
+---
+
+## Three levels of testing
+
+* `assert` statements
+* unit tests
+* consistency checks
+
+[➮ read more](https://github.com/ehansis/til/blob/master/pages/three_levels_analytics_testing.md)
+
+---
+
+# Demo time!
 
 ---
 
@@ -87,7 +115,7 @@ Data people need to catch up.
 
 ---
 
-# Thank you!
+# Happy coding!
 
 Code, slides, etc: 
 
