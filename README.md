@@ -6,11 +6,11 @@ _Scripted, testable, scalable, and free! - A tour of geospatial analysis in Pyth
 ## Demo content
 
 The presentation slides are defined in [slides.md](https://github.com/ehansis/geodemo2021/blob/main/slides.md), you
-can view all the content there.
+can view all the content there, including links to references.
 The pretty, htlm-ified slides are in `slides.html`. 
 You'd need to clone the repo (or download that file) to view them.
 
-The bluepring for the live demo is in `pre_recorded_demo.ipynb`.
+The blueprint for the live demo is in `pre_recorded_demo.ipynb`.
 You can view the notebook without dowloading it in [nbviewer](https://nbviewer.jupyter.org/github/ehansis/geodemo2021/blob/main/pre_recorded_demo.ipynb).
 
 
@@ -61,7 +61,7 @@ This demo was created using [Conda](https://conda.io/) to build and manage the P
 You can re-create the environment by [installing conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/)
 and running
 ```
-conda env create -f conda_env.yml
+conda env create -f conda_env.yml -n geodemo2021
 ```
 
 

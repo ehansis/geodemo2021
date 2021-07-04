@@ -35,7 +35,7 @@ def get_wms_map(wms_url, boundary, layer_name, resolution_m=25):
     )
     bbox = transform(project, box(*boundary.bounds))
 
-    # compute number of pixels at 10 m resolution
+    # compute number of pixels at desired resolution
     width = round((bbox.bounds[2] - bbox.bounds[0]) / resolution_m)
     height = round((bbox.bounds[3] - bbox.bounds[1]) / resolution_m)
 
