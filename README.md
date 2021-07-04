@@ -3,23 +3,15 @@ Demo content for GeoMob Munich Meetup, July 2021
 
 _Scripted, testable, scalable, and free! - A tour of geospatial analysis in Python_
 
+## Demo content
 
-## Grid data preproc
+The presentation slides are defined in [slides.md](https://github.com/ehansis/geodemo2021/blob/main/slides.md), you
+can view all the content there.
+The pretty, htlm-ified slides are in `slides.html`. 
+You'd need to clone the repo (or download that file) to view them.
 
-* load Tiffs, inspect
-* Convert to binary masks  
-* interpolate where necesary
-* AND them together, convert to int
-
-
-## Vector data preproc
-
-* buffer
-* unary_union -> single multipolygo
-* explode -> many polys, but attributes are lost
-* label exploded polys
-* sjoin with original dataset, how=right to keep group label
-* groupy.first to keep one entry per group label
+The bluepring for the live demo is in `pre_recorded_demo.ipynb`.
+You can view the notebook without dowloading it in [nbviewer](https://nbviewer.jupyter.org/github/ehansis/geodemo2021/blob/main/pre_recorded_demo.ipynb).
 
 
 ## OpenStreetMap data queries
@@ -55,6 +47,14 @@ out skel qt;
 ```
 
 
+## Raster data queries (land cover)
+
+The example raster data used in the demo is part of the [Copernicus High Resolution Layers](https://land.copernicus.eu/pan-european/high-resolution-layers) dataset.
+Code for downloading the relevant data is in `clc_raster_query.py`.
+
+Please refer to the Copernicus website for further information, in particular concering [Terms of Use](https://land.copernicus.eu/terms-of-use).
+
+
 ## Python environment
 
 This demo was created using [Conda](https://conda.io/) to build and manage the Python environment.
@@ -65,7 +65,7 @@ conda env create -f conda_env.yml
 ```
 
 
-## Slides
+## Slide compilation
 
 Slides are defined in `slides.md`. Compile them to html with
 ```
