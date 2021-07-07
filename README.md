@@ -11,7 +11,7 @@ The pretty, htlm-ified slides are in `slides.html`.
 You'd need to clone the repo (or download that file) to view them.
 
 The blueprint for the live demo is in `pre_recorded_demo.ipynb`.
-You can view the notebook without dowloading it in [nbviewer](https://nbviewer.jupyter.org/github/ehansis/geodemo2021/blob/main/pre_recorded_demo.ipynb).
+You can view the notebook without dowloading it by visiting [nbviewer](https://nbviewer.jupyter.org/github/ehansis/geodemo2021/blob/main/pre_recorded_demo.ipynb).
 
 
 ## OpenStreetMap data queries
