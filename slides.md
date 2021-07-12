@@ -1,5 +1,5 @@
 ---
-author: Eberhard Hansis
+author: Eberhard Hansis, CTO & Founder @ [Vebeto GmbH](https://www.vebeto.de)
 title: GeoMob MUC
 subtitle: Scripted, testable, scalable, and free!<br>A tour of geodata analysis in Python.
 date: July 15, 2021
@@ -31,11 +31,6 @@ date: July 15, 2021
   
 ---
 
-* *you* + dask
-  - anything is possible!
-
----
-
 # Best practices
 
 ---
@@ -59,6 +54,7 @@ date: July 15, 2021
 * You *will* run similar analyses in the future.
 * You *will not* remember what you did, a year from now.
 * You *will not* write good documentation.
+* Automated testing becomes possible
 
 ---
   
@@ -86,6 +82,15 @@ Git is a version control system.
 
 ... this rules out P💥werBI, T🦄bleau, ArcG📍s projects
 
+
+---
+
+## First law of analytics project files
+
+> If you can easily merge changes from multiple coworkers, you can use it.
+
+---
+
 # Test, Test, Test
 
 ---
@@ -102,16 +107,7 @@ Git is a version control system.
 
 # Demo time!
 
----
-
-# Are these ideas new?
-
----
-
-# No.
-
-Software developers have been working like this for a long time. 
-Data people need to catch up.
+(maybe)
 
 ---
 
@@ -121,6 +117,6 @@ Code, slides, etc:
 
 [https://github.com/ehansis/geodemo2021](https://github.com/ehansis/geodemo2021)
 
-Eberhard Hansis, CTO @ [Vebeto GmbH](https://www.vebeto.de)
+Eberhard Hansis, CTO & Founder @ [Vebeto GmbH](https://www.vebeto.de)
 
-[LinkedIn](https://www.linkedin.com/in/eberhard-hansis-95a1b833/)
+(I'm on [LinkedIn](https://www.linkedin.com/in/eberhard-hansis-95a1b833/))
