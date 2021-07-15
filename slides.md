@@ -33,6 +33,8 @@ date: July 15, 2021
 
 # Best practices
 
+for serious projects (scientific publications, business decisions, products ...)
+
 ---
 
 # 🧨🪤🐁
@@ -80,14 +82,14 @@ Git is a version control system.
 * merging
 * true collaborative work
 
-... this rules out P💥werBI, T🦄bleau, ArcG📍s projects
+... this rules out P💥werBI, T🦄bleau, ArcG📍s projects, Jupyter Notebooks!
 
 
 ---
 
-## First law of analytics project files
+## First law of analytics tools
 
-> If you can easily merge changes from multiple coworkers, you can use it.
+> If you can easily merge changes from multiple coworkers *and* implement automated tests, you can use it.
 
 ---
 
